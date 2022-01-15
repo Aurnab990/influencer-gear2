@@ -190,6 +190,7 @@ h4{
   @media (max-width: 688px){
       .popular-collection-image{
           grid-template-columns: repeat(1, 1fr);
+          width: 100%;
           
       }
       .see-more{
@@ -203,7 +204,7 @@ h4{
         margin-left: 5%;
         font-weight: bold;
         padding-right: 5%;
-        margin-top: 0;
+        display: flex;
     }
     b{
         
@@ -217,29 +218,48 @@ h4{
         
     }
     .image-one{
-        width: 90%;
+        display: flex;
+        width: 100%;
         padding-left: 5%;
-        height: 30px;
+        height: 70px;
+        margin-top: 50%;
     }
     .image-one img{
         width: 90%;
         
     
     }
-    .company-name img .flex-image{
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-        padding: 100px;
-        margin-top: 10%;
+    .button{
+        color: aliceblue;
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: tomato;
+        padding: 10px 70px;
+        margin-top: -70%;
+        font-weight: bold;
+        margin-left: 5%;
     }
-    .company-name img .double-flex{
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-        padding: 100px;
-        margin-top: 10%;
+    .company-name img{
+        display: none;
+        
     }
+    .footer-class{
+        background-color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        margin: -23px;
+        width: auto;
+        
+        text-align: center;
+        
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      
+        
+    }
+    .icon{
+        display: flex;
+    }
+    
     
     
   }
